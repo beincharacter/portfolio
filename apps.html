@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps — Shubham Pal</title>
+<meta name="description" content="Apps built by Shubham Pal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+
+<div class="sheet">
+  <div class="frame">
+    <span class="corner corner-tl"></span>
+    <span class="corner corner-tr"></span>
+    <span class="corner corner-bl"></span>
+    <span class="corner corner-br"></span>
+
+    <nav class="sitenav">
+      <a class="brand" href="/">been<span>character</span>.online</a>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/resume.html">Resume</a>
+        <a class="current" href="/apps.html">Apps</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>Things I've built and actually shipped.</h1>
+      <p>The two below are full apps running on their own subdomains. A couple
+      of smaller projects are listed further down with links to their source.</p>
+    </div>
+
+    <section id="live-apps">
+      <h2 class="section-title">Live apps</h2>
+      <div class="spec-grid">
+
+        <div class="spec">
+          <span class="sc-b"></span><span class="sc-c"></span>
+          <p class="spec-name">QuickMails <span class="spec-live">live</span></p>
+          <p class="spec-stack">Node.js · JSON · Email APIs</p>
+          <p class="spec-desc">Cold-email automation for bulk recruiter outreach —
+          contact ingestion, personalized templating, and scheduled sends spread
+          across business days instead of one bulk blast.</p>
+          <ul>
+            <li>JSON-based contact ingestion and recipient management</li>
+            <li>Dynamic templating with recruiter-specific personalization</li>
+            <li>Configurable scheduler for queued, staggered sends</li>
+          </ul>
+          <div class="spec-links">
+            <a href="https://quickmails.beincharacter.online">quickmails.beincharacter.online</a>
+            <a href="https://github.com/beincharacter/quickmails">Source</a>
+          </div>
+        </div>
+
+        <div class="spec">
+          <span class="sc-b"></span><span class="sc-c"></span>
+          <p class="spec-name">Spaced Revision <span class="spec-live">live</span></p>
+          <p class="spec-stack">Next.js · TypeScript · Supabase · PostgreSQL</p>
+          <p class="spec-desc">Spaced-repetition planner that schedules topic
+          revisions from study history and difficulty, and syncs them to your
+          calendar.</p>
+          <ul>
+            <li>Google OAuth and passwordless Magic Link login</li>
+            <li>Google Calendar sync with reminder notifications</li>
+            <li>Dashboard for subjects, topics, and upcoming reviews</li>
+          </ul>
+          <div class="spec-links">
+            <a href="https://spacedrevision.beincharacter.online">spacedrevision.beincharacter.online</a>
+            <a href="https://github.com/beincharacter/spaced-revision">Source</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="more-projects">
+      <h2 class="section-title">More projects</h2>
+      <div class="spec-grid">
+
+        <div class="spec">
+          <span class="sc-b"></span><span class="sc-c"></span>
+          <p class="spec-name">Hiring Platform</p>
+          <p class="spec-stack">React · Node.js · MongoDB</p>
+          <p class="spec-desc">A job platform for companies to post openings and
+          manage applicants — cut hiring time from 4 weeks to 1–2 weeks.</p>
+          <div class="spec-links">
+            <a href="#">Live demo</a>
+            <a href="#">Source</a>
+          </div>
+        </div>
+
+        <div class="spec">
+          <span class="sc-b"></span><span class="sc-c"></span>
+          <p class="spec-name">ImageToURL</p>
+          <p class="spec-stack">React · Node.js · Cloud Storage</p>
+          <p class="spec-desc">A lightweight tool for storing large assets in the
+          cloud and getting back a shareable URL.</p>
+          <div class="spec-links">
+            <a href="#">Live demo</a>
+            <a href="#">Source</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>More on the way. If one of these is useful to you, or you want to talk
+      about how it was built, reach out.</p>
+      <div class="foot-links">
+        <a href="mailto:shubhampalatwork@gmail.com">Email</a>
+        <a href="https://github.com/beincharacter">GitHub</a>
+      </div>
+    </footer>
+
+  </div>
+</div>
+
+</body>
+</html>
